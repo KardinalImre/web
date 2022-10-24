@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Űrlap</title>
+</head>
+<body>
+    <h1>Űrlap feladat</h1>
+    <img src="img/pizza.png" alt="PIZZA">
+    <br><br><br>
+    
+    <form name="Űrlap">
+
+        <legend>Adatok:</legend>
+        <p>
+        <label>Név: <input type="text" name="nev"></label>
+        </p>
+         <p>
+            <label>Telefonszám: <input type="text" name="telefonszam"></label>
+         </p>
+         <p>
+            <label>Neme:         <input type='radio' name='nem'> fiú <input type='radio' name='nem'> lány</label>
+         </p>
+         <legend>Pizzaméret:</legend>
+         <p>
+            <label> <input type="radio" name="meret"> kicsi <input type="radio" name="meret"> közepes <input type="radio" name="meret" name="meret"> nagy </label>
+         </p>
+         <legend>Feltétek:</legend>
+         <p>
+            <label><input type="checkbox" name="feltet"> sonka <input type="checkbox" name="feltet"> sajt <br><br> Egyéb feltét: <input type="text" name="feltet"></label>
+         </p>
+         <legend>Egyéb adatok:</legend>
+         <p>
+            Email cím: <label><input type="email"></label>
+         </p>
+         <p>
+            Mennyiség: <label><input type="number"> db </label>
+         </p>
+         <input type='submit'>
+    </form>
+</body>
+</html>
