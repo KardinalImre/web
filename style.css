@@ -1,0 +1,13 @@
+a {
+    text-decoration: none;
+    color: red;
+    transition: 700ms;
+}
+
+a:hover {
+    color: blue;
+}
+
+.active {
+    color: cadetblue;
+}
