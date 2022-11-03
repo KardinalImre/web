@@ -1,3 +1,7 @@
+body {
+    background-color: gold;
+}
+
 a {
     text-decoration: none;
     color: red;
@@ -10,4 +14,8 @@ a:hover {
 
 .active {
     color: cadetblue;
+}
+
+h1 {
+    text-shadow: 2px 2px 5px red;
 }
