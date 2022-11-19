@@ -1,0 +1,16 @@
+img {
+    border: 10px solid black;
+    margin: 15px;
+    width: 400px;
+    transition: 1s;
+}
+
+img:hover {
+    transform: scale(1.1);
+}
+
+p {
+    text-align: center;
+    font-weight: bolder;
+    font-size: larger;
+}
