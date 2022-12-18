@@ -1,15 +1,16 @@
-img {
-    border: 10px solid black;
-    margin: 15px;
-    width: 400px;
+#evszak {
+    border: 2px solid black;
+    border-radius: 5%;
+    margin: 10px;
+    width: 60%;
     transition: 1s;
 }
 
-img:hover {
+#evszak:hover {
     transform: scale(1.1);
 }
 
-p {
+#evszak_p {
     text-align: center;
     font-weight: bolder;
     font-size: larger;

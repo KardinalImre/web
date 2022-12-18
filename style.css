@@ -12,10 +12,6 @@ a:hover {
     color: blue;
 }
 
-.active {
-    color: red;
-}
-
 h1 {
     text-shadow: 2px 2px 5px red;
 }
@@ -57,7 +53,12 @@ li.menu a:hover:not(.active) {
   bottom: 0;
   background-color: red;
   color: gold;
-  width: 400px;
+  width: 100%;
   position: fixed;
   text-align: center;
+}
+
+fieldset {
+  border-color: black;
+  margin-top: 5vh;
 }
